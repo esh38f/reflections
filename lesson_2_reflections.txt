@@ -1,0 +1,28 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+ANSWER: a hidden directory called .git will be created which is your git repository. This will allow you to run git commands such as git diff, git commit, etc. This way, the history/versions of all the files in the repository can be tracked and compared.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+ANSWER: The staging area allows for adding files to be committed. The working directory is local and where we have our completed work. The staging area lets review all proposed commits in one place before you actually commit. It's valuable bc you can get feedback from others and make revisions and make sure there are not multiple commits connected with the same logical change before committing
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+ANSWER: You can double-check to see if there are 2 or more file modifications that affect the same general change. If there are, you shoud combine the versions so that you only have to make one commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+ANSWER: if you're working on a project with other people, then it's better to create your own branch to work on. This lets you make  sure things are working properly and you can discuss your changes with the team and see if everyone agrees that you should merge your branch into the master branch or not
+
+How do the diagrams help you visualize the branch structure?
+
+ANSWER: The diagrams help to identify how a commit can be reached and  what commits are unreachable. They also show who is working on seperate branches and what they are using that branch to work on such as an experimental change or a bug fix.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+ANSWER: Merging two branches together combines all the changes made in a separate branch into the main branch. This will incorporate all changes into the master. The result is a new commit with 2 parents that you can reach all other commits from both branches. Using the diagram to represent this makes it easier to follow the main branch to see if other branches have been merged into it or not, and it helps to track whether a commit is reachable or not.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+ANSWER: Pros_Auto: points out possible errors that you may have overlooked, especially helpful when there are multiple authors where there are 2 changes in the same general area. Auto-merging can make things less tedious for you.
+Cons_Auto: Git doesn't know the intentions of the authors and can only guess, no way it can figure out all the possible cases where you would want to auto-merge. Also, it could get annoying if Git tried to guess too often, especially when things seem so obvious bc you are familiar with the content. Making too many auto changes could lead to weird conglomerate changes that don't make any sense and won't compile or run.
