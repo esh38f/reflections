@@ -6,7 +6,7 @@ I would want to use a remote repository if I wanted to share my work that I'm pr
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+There may have been changes made that could negatively affect the whole project, and you wouldn't want to pull this material because you want your local repository to keep running well. You want to review all new changes before you are ready to pull it.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
