@@ -16,7 +16,7 @@ Fork is used when you want to make a copy of another repository directly on GitH
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
     
-   If you are going somewhere w/out Internet access, you can update a local copy before you leave. This way, you will know      the current state of the remote, continue to work and make changes, and then perform the merge while still offline.
+If you are going somewhere w/out Internet access, you can update a local copy before you leave. This way, you will know      the current state of the remote, continue to work and make changes, and then perform the merge while still offline.
  
     
 How would you collaborate without using Git or GitHub?  What would be easier,
