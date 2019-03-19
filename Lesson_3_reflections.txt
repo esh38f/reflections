@@ -15,15 +15,18 @@ Fork is used when you want to make a copy of another repository directly on GitH
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
-
-    Fill in your answer here
-
+    
+   If you are going somewhere w/out Internet access, you can update a local copy before you leave. This way, you will know      the current state of the remote, continue to work and make changes, and then perform the merge while still offline.
+ 
+    
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+To collaborate w/out Git or GitHub, I would probably choose some sort of shared folder like on Google Drive. It would be less complicated, but problems could occur if we were all making changes to the same files at the same time. Using Git or GitHub takes time to learn and can get pretty complex, but at least I wouldn't have to worry about someone introducing a bug to code I worked on without me knowing. Also, I don't know of any other real-time collaborative editors that are specifically good for code.
+ 
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+Making changes in a separate branch is good if you are working in a group and want everyone to agree to changes before      they are added to the master branch. If you are working on a solo project, you can use a seperate branch to experiment      without having to worry if it will mess up your entire project or just to see if the experimental changes will work.
+ 
